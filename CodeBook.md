@@ -1,18 +1,24 @@
 Description
+
 Information about the data and variables are listed in this CodeBook
-Initial and Source Data
+
+Initial and Source Data:
 The Source data for this project can be downloaded from
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 A full description of where the data was obtained is available at the below site:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Data Set 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years to create the data set. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers were selected for generating the training data and 30% the test data.
+
 For each record in the dataset it is provided:
 •	Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 •	Triaxial Angular velocity from the gyroscope.
 •	A 561-feature vector with time and frequency domain variables.
 •	Its activity label.
 •	An identifier of the subject who carried out the experiment.
+
 Dataset includes the following files:
 •	'features_info.txt': Shows information about the variables used on the feature vector.
 •	'features.txt': List of all features.
@@ -21,9 +27,11 @@ Dataset includes the following files:
 •	'train/y_train.txt': Training labels.
 •	'test/X_test.txt': Test set.
 •	'test/y_test.txt': Test labels.
+
 Following files are available for train and test data:
 •	'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 Note: train/Inertial Signals files are not used for this course project.
+
 Tidy data/Output:
 1.	After downloading the zipped  file from the above URL, unzip the source data into the sub folder (say CP_data) where the run_analysis .R script will be created.
 2.	list.files will list all the files located under the above sub folder after the path is set correctly
